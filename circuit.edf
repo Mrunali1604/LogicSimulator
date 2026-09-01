@@ -1,0 +1,17 @@
+(edif circuit
+  (technology (numberDefinition))
+  (library PRIMITIVES
+    (cell AND2 (cellType GENERIC))
+    (cell OR2  (cellType GENERIC))
+    (cell XOR2 (cellType GENERIC))
+    (cell NOT1 (cellType GENERIC))
+    (cell DFF  (cellType GENERIC))
+  )
+  (instance g1  (viewRef PRIM (cellRef AND2)))
+  (instance g2  (viewRef PRIM (cellRef OR2)))
+  (instance g3  (viewRef PRIM (cellRef XOR2)))
+  (instance g4  (viewRef PRIM (cellRef NOT1)))
+  (instance ff1 (viewRef PRIM (cellRef DFF)))
+  (instance ff2 (viewRef PRIM (cellRef DFF)))
+  (instance ff3 (viewRef PRIM (cellRef DFF)))
+)

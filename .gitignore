@@ -1,0 +1,10 @@
+# Executables and build output
+*.exe
+*.o
+*.obj
+
+# Simulation generated outputs
+*.vcd
+
+# VS Code user settings (optional)
+.vscode/settings.json
